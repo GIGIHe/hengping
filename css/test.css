@@ -1,0 +1,26 @@
+/*黑，你的假的滚动条*/
+.bar{
+	position: absolute;
+	right: 2px;
+	top: 0;
+	width: 15px;
+	height: 80px;
+	background: pink;
+	border-radius: 10px;
+}
+/*滚吧，一点一点地滚*/
+.cons{
+	width: 7680px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	/*width: calc(1920px*4);*/
+}
+.cons>div{
+	float: left;
+	width: 1920px;
+}
+.cons>div img{
+	width: 100%;
+}

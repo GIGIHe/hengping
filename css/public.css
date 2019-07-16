@@ -1,0 +1,98 @@
+/*æ ·å¼æ¸…é™¤ä»£ç */
+html{
+     width:100%;
+     overflow: hidden;
+}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form
+,fieldset,legend,input,textarea,select
+{margin:0;padding:0}
+body{
+    font:13px "microsoft yahei","Arial Narrow",HELVETICA;
+    background:#fff;
+    }
+li{list-style: none;}
+a{color:#2d374b;text-decoration:none;cursor: pointer}
+em{font-style:normal}
+i{font-style: normal}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word;margin: 0px;}
+/*é€šç”¨æ ·å¼*/
+.wth{
+     width:100%;
+     min-width:1000px;
+     clear: both;
+}
+.w{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+.clearfloat:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    }
+/*é¡¶éƒ¨*/
+.top_all{
+  width: 100%;
+  min-width: 1000px;
+  height: 45px;
+  background: #FFFFFF;
+}
+.top_all li{
+  height: 40px;
+  line-height: 50px;
+  font-size:16px;
+}
+.left{
+  float: left;
+}
+.left li:first-child{
+  width: 170px;
+  line-height: 20px;
+}
+.left li{
+  width: 90px;
+  float: left;
+  text-align: center;
+}
+.left li a{
+    padding-right: 5px;
+}
+.right{
+  float: right;
+  color: #666666;
+}
+.right li{
+  float: left;
+  font-size:18px;
+}
+/*åœ°å€æ */
+.hda{
+    background: #EEEEEE;
+}
+/*åº•éƒ¨*/
+.zg_foot{
+    background:#2b2a3a ;
+    height:130px;
+}
+.zg_foot_nr{
+    width:1000px;
+    overflow: hidden;
+    height:100px;
+    background:#2b2a3a;
+    padding-top:30px;
+    text-align:center;
+    color: #FFF;
+    margin:0 auto;
+}
+.zg_foot_nr p{line-height:24px;}
+.zg_foot_nr a,.zg_foot_nr a:hover{
+    color:#FFF;
+    line-height:24px;
+    text-decoration:none;
+}
+
